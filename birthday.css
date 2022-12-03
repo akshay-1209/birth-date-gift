@@ -1,0 +1,94 @@
+body
+{
+    color: white;
+    font-family: "Happy Monkey", cursive;
+    text-align: center;
+    background: linear-gradient(skyblue,pink);
+}
+
+.real
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gift-use
+{
+    text-shadow: 0 0 2px black;
+    margin-top: 0px;
+}
+
+#gift-title
+{
+    text-shadow: 0 0 2px black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.gift-img
+{
+    height: 500px;
+    width: 500px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    border: solid 4px white;
+}
+
+.gift-img:hover
+{
+    background-image: url("images/happy.gif");
+    background-size: cover;
+}
+
+#bday-age{
+    background-color: purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#bday-date{
+    background-color: purple;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#main_tag
+{
+    background-color: purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#klausimg
+{
+    border-radius: 100px;
+    border: 6px pink solid;
+}
+
+.footer
+{
+    margin-top: 30px;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+#link
+{
+    color: white;
+    font-style: underline;
+}
